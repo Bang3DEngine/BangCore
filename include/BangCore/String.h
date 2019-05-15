@@ -1,12 +1,10 @@
-#ifndef STRING_H
-#define STRING_H
+#pragma once
 
 #include <sstream>
 #include <string>
 #include <system_error>
 
-#include "Bang/Array.h"
-#include "Bang/BangDefines.h"
+#include "BangCore/Array.h"
 
 namespace Bang
 {
@@ -247,7 +245,7 @@ String String::TrimRight(Container<char> trimChars) const
         return "";
     }
 
-    int i = SCAST<int>(Size()) - 1;
+    int i = static_cast<int>(Size()) - 1;
     for (; i >= 0; --i)
     {
         if (!trimChars.Contains(At(i)))
@@ -309,7 +307,7 @@ Container<String> String::Split(char splitter, bool trimResults) const
         if (indexFound == -1)
         {
             lastParticle = true;
-            indexFound = SCAST<long>(Size());
+            indexFound = static_cast<long>(Size());
         }
 
         if (indexFound == lastIndexFound)
@@ -353,4 +351,3 @@ struct hash<Bang::String>
 };
 }  // namespace std
 
-#endif  // STRING_H

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Bang/Assert.h"
+#include "BangCore/Assert.h"
 #include "Bang/List.h"
 
 namespace Bang

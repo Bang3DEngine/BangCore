@@ -1,10 +1,9 @@
-#ifndef ARRAY_H
-#define ARRAY_H
+#pragma once
 
 #include <functional>
 #include <vector>
 
-#include "Bang/Containers.h"
+#include "BangCore/Containers.h"
 
 namespace Bang
 {
@@ -111,5 +110,3 @@ private:
 }  // namespace Bang
 
 #include "Array.tcc"
-
-#endif  // ARRAY_H

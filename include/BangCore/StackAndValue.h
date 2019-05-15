@@ -1,9 +1,6 @@
-#ifndef STACKANDVALUE_H
-#define STACKANDVALUE_H
+#pragma once
 
 #include <stack>
-
-#include "Bang/Bang.h"
 
 namespace Bang
 {
@@ -14,5 +11,3 @@ struct StackAndValue
     std::stack<T> stack;
 };
 }
-
-#endif  // STACKANDVALUE_H

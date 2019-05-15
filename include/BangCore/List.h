@@ -4,7 +4,7 @@
 #include <functional>
 #include <list>
 
-#include "Bang/Containers.h"
+#include "BangCore/Containers.h"
 
 namespace Bang
 {

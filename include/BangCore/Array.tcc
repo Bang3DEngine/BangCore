@@ -1,8 +1,6 @@
-#pragma once
-
-#include "Bang/Array.h"
-#include "Bang/Assert.h"
-#include "Bang/Containers.h"
+#include "BangCore/Array.h"
+#include "BangCore/Assert.h"
+#include "BangCore/Containers.h"
 
 namespace Bang
 {

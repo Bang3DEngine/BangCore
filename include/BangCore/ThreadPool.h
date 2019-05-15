@@ -3,7 +3,7 @@
 
 #include "Bang/BangDefines.h"
 #include "Bang/List.h"
-#include "Bang/String.h"
+#include "BangCore/String.h"
 
 namespace Bang
 {

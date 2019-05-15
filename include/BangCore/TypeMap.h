@@ -7,8 +7,8 @@
 
 #include "Bang/BangDefines.h"
 #include "Bang/List.h"
-#include "Bang/String.h"
-#include "Bang/UMap.h"
+#include "BangCore/String.h"
+#include "BangCore/UMap.h"
 
 namespace Bang
 {

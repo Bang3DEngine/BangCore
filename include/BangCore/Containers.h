@@ -1,11 +1,8 @@
-#ifndef COLLECTION_H
-#define COLLECTION_H
+#pragma once
 
 #include <algorithm>
 #include <functional>
 #include <iostream>
-
-#include "Bang/Bang.h"
 
 namespace Bang
 {
@@ -88,4 +85,3 @@ public:
 };
 }
 
-#endif  // COLLECTION_H

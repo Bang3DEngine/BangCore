@@ -3,15 +3,15 @@
 
 #include <vector>
 
-#include "Bang/Array.h"
-#include "Bang/Array.tcc"
+#include "BangCore/Array.h"
+#include "BangCore/Array.tcc"
 #include "Bang/BangDefines.h"
 #include "Bang/EventEmitter.h"
 #include "Bang/EventListener.tcc"
 #include "Bang/IEventsFileTracker.h"
 #include "Bang/Path.h"
 #include "Bang/Time.h"
-#include "Bang/UMap.h"
+#include "BangCore/UMap.h"
 #include "Bang/USet.h"
 
 namespace Bang

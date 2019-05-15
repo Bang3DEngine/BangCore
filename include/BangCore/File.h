@@ -3,11 +3,11 @@
 
 #include <cstddef>
 
-#include "Bang/Array.h"
+#include "BangCore/Array.h"
 #include "Bang/BangDefines.h"
 #include "Bang/List.h"
 #include "Bang/Path.h"
-#include "Bang/String.h"
+#include "BangCore/String.h"
 #include "Bang/USet.h"
 
 namespace Bang

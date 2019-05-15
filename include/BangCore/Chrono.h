@@ -1,10 +1,10 @@
 #ifndef CHRONO_H
 #define CHRONO_H
 
-#include "Bang/Array.h"
-#include "Bang/Array.tcc"
+#include "BangCore/Array.h"
+#include "BangCore/Array.tcc"
 #include "Bang/BangDefines.h"
-#include "Bang/String.h"
+#include "BangCore/String.h"
 #include "Bang/Time.h"
 
 namespace Bang

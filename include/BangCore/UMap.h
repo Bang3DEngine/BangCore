@@ -1,9 +1,6 @@
-#ifndef UMAP_H
-#define UMAP_H
+#pragma once
 
 #include <unordered_map>
-
-#include "Bang/Bang.h"
 
 namespace Bang
 {
@@ -70,6 +67,5 @@ private:
 };
 }
 
-#include "Bang/UMap.tcc"
+#include "BangCore/UMap.tcc"
 
-#endif  // UMAP_H

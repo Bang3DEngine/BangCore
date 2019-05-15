@@ -1,6 +1,4 @@
-#pragma once
-
-#include "Bang/UMap.h"
+#include "BangCore/UMap.h"
 
 namespace Bang
 {

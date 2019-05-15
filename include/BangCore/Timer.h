@@ -3,11 +3,11 @@
 
 #include <functional>
 
-#include "Bang/Array.h"
+#include "BangCore/Array.h"
 #include "Bang/BangDefines.h"
 #include "Bang/Component.h"
 #include "Bang/ComponentMacros.h"
-#include "Bang/String.h"
+#include "BangCore/String.h"
 #include "Bang/Time.h"
 
 namespace Bang

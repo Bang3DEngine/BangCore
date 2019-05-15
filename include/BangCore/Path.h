@@ -5,11 +5,11 @@
 #include <string>
 #include <system_error>
 
-#include "Bang/Array.h"
-#include "Bang/Array.tcc"
+#include "BangCore/Array.h"
+#include "BangCore/Array.tcc"
 #include "Bang/BangDefines.h"
 #include "Bang/Flags.h"
-#include "Bang/String.h"
+#include "BangCore/String.h"
 #include "Bang/Time.h"
 
 namespace Bang
