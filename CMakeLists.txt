@@ -1,0 +1,14 @@
+project(BangCore C CXX)
+cmake_minimum_required(VERSION 3.7)
+set (CMAKE_CXX_STANDARD 11)
+
+set(BANG_CORE_SOURCE_DIR "src")
+set(BANG_CORE_INCLUDE_DIR "include")
+set(BANG_CORE_INCLUDE_FULL_DIR "${BANG_CORE_INCLUDE_DIR}/BangCore")
+file(GLOB_RECURSE BANG_CORE_HEADER_FILES "${BANG_CORE_INCLUDE_FULL_DIR}/*.h" "${BANG_CORE_INCLUDE_FULL_DIR}/*.tcc")
+file(GLOB_RECURSE BANG_CORE_SRC_FILES "${BANG_CORE_SOURCE_DIR}/*.cpp")
+
+add_library(BangCore ${BANG_CORE_SRC_FILES})
+set_target_properties(BangCore PROPERTIES LINKER_LANGUAGE CXX)
+target_sources(BangCore PUBLIC ${BANG_CORE_HEADER_FILES})
+target_include_directories(BangCore PUBLIC "${BANG_CORE_INCLUDE_DIR}/")
